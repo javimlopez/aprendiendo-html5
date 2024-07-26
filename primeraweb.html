@@ -37,10 +37,15 @@
                     <h3>Subtítulo de la noticia 1</h3>
                 </hgroup>
             </header>           
-
-            <p> Noticia 1</p>
-            <p> Seguimos hablando de la noticia 1</p>
-            <p> Terminamos de hablar de la noticia 1</p>
+            <figure> <!-- Añadir elementos (imágenes, vídeo, etc)-->
+                <img src="imagenes/DiscoDuro.jpg"/> <!-- Añadir una imagen (jpg, png, gif)-->
+                <figcaption>
+                    Disco duro <!-- Pie de foto -->
+                </figcaption>
+            </figure>
+            <p> <mark>Noticia 1</mark></p> <!-- Mark resalta un texto-->
+            <p> Seguimos hablando de la <em>noticia 1</em></p> <!-- em para énfasis en un texto-->
+            <p> Terminamos de hablar de la <strong>noticia 1</strong></p> <!-- Strong para texto en negrita, bueno para categorizar-->
 
             <footer> <!-- Pie de página de la sección article-->
                 <p>Comentarios de usuarios</p>
@@ -53,8 +58,8 @@
                     <h3>Subtítulo de la noticia 2</h3>
                 </hgroup>
             </header>           
-            <p> Noticia 2</p>
-            <p> Seguimos hablando de la noticia 2</p>
+            <p><cite>Lo que el viento se llevó</cite></p> <!-- Citar cosas (películas, libros, etc)-->
+            <p> Una de las películas más largas de la historia del cine es <cite>Lo que el viento se llevó</cite></p>
             <p> Terminamos de hablar de la noticia 2</p>
             <footer> <!-- Pie de página de la sección article-->
                 <p>Comentarios de usuarios</p>
@@ -66,6 +71,7 @@
                     <h2>Título de la noticia 3</h2>
                     <h3>Subtítulo de la noticia 3</h3>
                 </hgorup>
+                <time datetime="2014/01/31" pubdate>Noticia publicada el día 31/01/2014</time>
             </header>           
             <p> Noticia 3</p>
             <p> Seguimos hablando de la noticia 3</p>
@@ -76,6 +82,6 @@
         </article>
     </section>
 
-    <footer> Derechos Reservados Tfno: 123456789</footer>
+    <footer> <small>Derechos Reservados</small> <address>Teléfono 123456789</address></footer> <!-- small para textos legales. address para datos personales-->
 </body>
 </html>
